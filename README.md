@@ -41,7 +41,7 @@
 
 2. 上课的时候也要认真听，毕竟题是由两位授课教师出的，但是有了前面的学习，相信你听起课来肯定会更加轻松，只需要注意一些细节的点。尤其是前半部分相对来说是一个比较新的部分，注意理解作业题的思路。如果自己第一次学好了线性代数，后半部分学习应该是比较轻松的。
 
-> 文 / [AutoFriedRich](https://github.com/YinMo19), 2024.5
+> 文 / [AutoFriedRich](https://github.com/AutoFriedRich), 2024.5
 
 本课属于自动化的专业课，应该是机器视觉方面的基础课，主要目标是补充学习线性代数中有关**线性空间**的知识。
 
@@ -60,7 +60,7 @@
 
 最后吐槽一下：国内的课本是真的一坨
 
-> by [@Maxwell Jay](https://github.com/MaxwellJay256) & [@longlin li](https://github.com/longlin10086), 2023.6
+> 文 / [@Maxwell Jay](https://github.com/MaxwellJay256) 和 [@longlin li](https://github.com/longlin10086), 2023.6
 
 ## Tips
 
@@ -76,5 +76,3 @@
 - 类似 StackOverflow 的数学论坛：https://math.stackexchange.com/
 - [kumiko - 线性代数应该这样学 // Linear Algebra Done Right （自学用）- Bilibili](https://www.bilibili.com/video/BV1uK4y1a7jL)
 
-<p align="right"><strong>update time</strong></p>
-<p align="right"><strong>2023.11</strong></p>
