@@ -23,7 +23,7 @@
 
 - Sheldon Axler, Linear Algebra Done Right, 3rd ed.(2015) / 4th ed.(2023)【两版均有中译本】
   - 此书本的官方网站：[linear.axler.net](https://linear.axler.net/)，提供 *Linear Algebra Done Right* 的免费电子书。2023 年作者发布了这本书的第 4 版，目前已经开放阅读和下载。
-  - 第 4 版中译由哈深 21 级的两位学生完成，已经发布在[网址 1](oliverwu515.github.io/ladr4e) 和[网址 2](linear.he-yang.top)，有需求的同学可以对照阅读。欢迎大家多提意见，译者会不断修订并更新发布的版本。作者官网上也有链接，但更新相对不那么及时，建议访问此处的链接。
+  - 第 4 版中译由哈深 21 级的两位学生完成，已经发布在[网址 1](https://oliverwu515.github.io/ladr4e) 和[网址 2](https://linear.he-yang.top/)，有需求的同学可以对照阅读。欢迎大家多提意见，译者会不断修订并更新发布的版本。作者官网上也有链接，但更新相对不那么及时，建议访问此处的链接。
 - Gilbert Strang, Introduction to Linear Algebra, 5th ed.(2016) / 6th ed.(2023)【无中译本，但可读性强】
   - 有对应网课：B 站搜 Gilbert Strang 即可。
 - Lay D.C., Linear Algebra and Its Applications, 5th ed. 【无中译本，但可读性强】
