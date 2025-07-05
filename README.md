@@ -81,7 +81,7 @@
 
 最后吐槽一下：国内的课本是真的一坨
 
-> 文 / [@Maxwell Jay](https://github.com/MaxwellJay256) 和 [@longlin li](https://github.com/longlin10086), 2023.6
+> 文 / [Maxwell Jay](https://github.com/MaxwellJay256) 和 [longlin li](https://github.com/longlin10086), 2023.6
 
 ## Tips
 
