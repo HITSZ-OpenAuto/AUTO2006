@@ -1,0 +1,387 @@
+{
+  ".github/workflows/trigger-workflow.yml": {
+    "size": 2058,
+    "time": 1751869187,
+    "hash": "a3cec598ab09e332d30baefc3167d03a9b13e451"
+  },
+  "LICENSE": {
+    "size": 20844,
+    "time": 1713083264,
+    "hash": "80454ddc9c621265313d4bc4c05c69b3b0c1100b"
+  },
+  "README.md": {
+    "size": 6990,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/.gitkeep": {
+    "size": 0,
+    "time": 1737450745,
+    "hash": "0970ee286d943f0346572ae3642bf7f56e72b016"
+  },
+  "assignments/2020春作业/README.md": {
+    "size": 24,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业1.pdf": {
+    "size": 91440,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业2.pdf": {
+    "size": 60517,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业3.pdf": {
+    "size": 64315,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业4.pdf": {
+    "size": 113266,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业5.pdf": {
+    "size": 43551,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业6.pdf": {
+    "size": 37411,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业7.pdf": {
+    "size": 43614,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业8.pdf": {
+    "size": 64672,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春作业/作业9.pdf": {
+    "size": 63699,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春答案/README.md": {
+    "size": 30,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春答案/作业1-7答案 .pdf": {
+    "size": 1070906,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春答案/作业8答案.pdf": {
+    "size": 182978,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2020春答案/作业9答案.pdf": {
+    "size": 198819,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2022春作业/HW1-20220329.pdf": {
+    "size": 104524,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW1_by Yanjie Li.pdf": {
+    "size": 402190,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW2-20220402.pdf": {
+    "size": 84016,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW2_by Yanjie Li.pdf": {
+    "size": 423382,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW3-20220412.pdf": {
+    "size": 84626,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW3_by Yanjie Li.pdf": {
+    "size": 414791,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW4-20220422.pdf": {
+    "size": 84953,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2022春作业/HW5-20220504.pdf": {
+    "size": 99089,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "assignments/2023春作业/HW1-20230406.pdf": {
+    "size": 92262,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/HW2-20230413.pdf": {
+    "size": 92836,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/HW3-20230424.pdf": {
+    "size": 87888,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/HW4-20230427.pdf": {
+    "size": 90025,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/HW5-20230507.pdf": {
+    "size": 99224,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/Homework1_Li Yanjie.pdf": {
+    "size": 402590,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/Homework2_Liyanjie.pdf": {
+    "size": 423382,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/Homework3_Liyanjie.pdf": {
+    "size": 414814,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春作业/README.md": {
+    "size": 24,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW1_LiYanjie_参考答案及常见问题.pdf": {
+    "size": 571007,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW1优秀作业参考.pdf": {
+    "size": 35842,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW1问题汇总.pdf": {
+    "size": 1115374,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW2 参考答案及常见问题.pdf": {
+    "size": 2296105,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW3 参考答案及常见问题.pdf": {
+    "size": 1618768,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW4 参考答案及常见问题.pdf": {
+    "size": 1529122,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/HW5 参考答案及常见问题.pdf": {
+    "size": 1608022,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/README.md": {
+    "size": 30,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2023春答案/控代答疑课（hw1-2-3_LiYanjie）.pdf": {
+    "size": 3259195,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 1.pdf": {
+    "size": 98124,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 2.pdf": {
+    "size": 104735,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 3.pdf": {
+    "size": 101711,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 4.pdf": {
+    "size": 391969,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 5.pdf": {
+    "size": 423044,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春作业/Homework 6.pdf": {
+    "size": 404440,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 1.pdf": {
+    "size": 58094,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 2.pdf": {
+    "size": 94312,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 3.pdf": {
+    "size": 148002,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 4.pdf": {
+    "size": 71125,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 5.pdf": {
+    "size": 83349,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "assignments/2025春答案/Solutions & Notes of Homework 6.pdf": {
+    "size": 213047,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "exams/.gitkeep": {
+    "size": 0,
+    "time": 1737450745,
+    "hash": "0970ee286d943f0346572ae3642bf7f56e72b016"
+  },
+  "exams/2025控代试题.pdf": {
+    "size": 59812,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "materials/.gitkeep": {
+    "size": 0,
+    "time": 1737450745,
+    "hash": "0970ee286d943f0346572ae3642bf7f56e72b016"
+  },
+  "notes/.gitkeep": {
+    "size": 0,
+    "time": 1737450745,
+    "hash": "0970ee286d943f0346572ae3642bf7f56e72b016"
+  },
+  "slides/.gitkeep": {
+    "size": 0,
+    "time": 1737450745,
+    "hash": "0970ee286d943f0346572ae3642bf7f56e72b016"
+  },
+  "slides/2023春课件/Lec1 Inner Product V1.pdf": {
+    "size": 7770411,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/Lec2 Eigenvalue and Eigenvector.pdf": {
+    "size": 4853956,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/README.md": {
+    "size": 24,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/mj讲义.part1.rar": {
+    "size": 25165824,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/mj讲义.part2.rar": {
+    "size": 25165824,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/mj讲义.part3.rar": {
+    "size": 25165824,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2023春课件/mj讲义.part4.rar": {
+    "size": 7104006,
+    "time": 1751691887,
+    "hash": "c22c99ea4532626311c287cc69c61562b3a5133a"
+  },
+  "slides/2025春课件/Lec1-Linear Algebra in Control Theory-Introduction.pdf": {
+    "size": 2596227,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec2 Vector Space-Preview Notes.pdf": {
+    "size": 958969,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec2-Vector Spaces.pdf": {
+    "size": 24530211,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec3-Linear Transformation.pdf": {
+    "size": 28493656,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec3-Linear-Transformation-Preview-Notes.pdf": {
+    "size": 2222354,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec4-Intro-Numerical-Algebra-Preview-Notes.pdf": {
+    "size": 244926,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec5-Inner Product_liyanjie.pdf": {
+    "size": 6235840,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "slides/2025春课件/Lec6-Eigenvalue and Eigenvector.pdf": {
+    "size": 3736685,
+    "time": 1751689268,
+    "hash": "18597130740f0bf188a01fa138429355ddb56f13"
+  },
+  "tag.txt": {
+    "size": 211,
+    "time": 1727064384,
+    "hash": "2279de824376e78ac3f575163a1cfd4a5c4615b2"
+  }
+}
