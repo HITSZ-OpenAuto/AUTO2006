@@ -1,0 +1,177 @@
+ID: "AUTO2006"
+SimilarID: []
+Name: "控制理论中的代数基础"
+CourseProperty:
+  Major:
+    - Year: "2019_2020"
+      Name: [ "自动化" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "2.5"
+  CourseHour: "40.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "40"
+
+  Major:
+    - Year: "2020_2021"
+      Name: [ "自动化", "自动化（第二学位）" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "2.5"
+  CourseHour: "40.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "40"
+
+  Major:
+    - Year: "2021_2022"
+      Name: [ "自动化", "自动化（第二学位）" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "2.5"
+  CourseHour: "40.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "40"
+
+  Major:
+    - Year: "2022_2023"
+      Name: [ "自动化", "自动化（第二学位）" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "2.5"
+  CourseHour: "40.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: ""
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "40"
+
+  Major:
+    - Year: "2023_2024"
+      Name: [ "自动化（第二学士学位）" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: ""
+      Semester: "春"
+  CourseType: "必修"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "2.5"
+  CourseHour: "40.0"
+  GPAInfluence: "核心权重"
+  GroupCourse:
+    Link: ""
+    Desc: "与《电磁场》（2学分）二选一[作为自动化与电气工程的分野]"
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "40"
+
+  Major:
+    - Year: "2024_2025"
+      Name: [ "工科试验班（自动化与电气工程）", "null" ]
+      Degree: "本"
+  GradeSemesters:
+    - Grade: "大一"
+      Semester: "春"
+  CourseType: "限选"
+  CourseID: "AUTO2006"
+  CourseName: "控制理论中的代数基础"
+  Credit: "3.0"
+  CourseHour: "48.0"
+  GPAInfluence: "GPA"
+  GroupCourse:
+    Link: ""
+    Desc: "与《固体力学》（3学分）二选一[作为自动化与机器人工程的分野]"
+    Name: ""
+    Ids: ["", "", ""]
+  GradeComposition:
+    - Name: "平时成绩"
+      Percentage: "10"
+    - Name: "作业"
+      Percentage: "20"
+    - Name: "期末考试"
+      Percentage: "70"
+  CourseHourComposition:
+    - Name: "授课"
+      Hour: "48"
