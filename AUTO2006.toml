@@ -1,0 +1,194 @@
+# 注意: “主要内容”板块的详细表格内容已被概括性地提取并合并到 course 板块，原有的详细学时安排等信息已根据规则被忽略。
+# 注意: 为保留教材的详细说明，在 textbooks 板块中增加了非标准的 description 字段。
+# 注意: “学习建议”中一则有多位贡献者的内容，已将其作者信息合并到单个 author 对象中。
+course_name = "控制理论中的代数基础"
+course_code = "AUTO2006"
+
+notices = """
+2023 级，这门课与《电磁场》（2 学分）二选一[作为自动化与电气工程的分野]；2024 级，这门课与《固体力学》（3 学分）二选一[作为自动化与机器人工程的分野]。
+"""
+
+[[lecturers]]
+name = "梅杰"
+  [[lecturers.reviews]]
+  content = """
+- 负责课程的前半部分，授课方式非常现代——在 iPad 上用 Goodnotes 书写板书并实时投屏👍
+- 课前会将用 LaTeX 制作的 PDF 讲义发放至课程群，课后会将手写讲义发放至课程群
+- 老师语速较快，知识密度高，上课可能跟不上，作业也比较难，但可以课后整理老师上课的笔记，这是期末复习的重要资料
+- 考勤形式是点名回答问题，所以上课不仅要去，还要认真听
+"""
+  author = { name = "", link = "", date = "" }
+
+[[lecturers]]
+name = "李衍杰"
+  [[lecturers.reviews]]
+  content = """
+- 负责课程的后半部分，授课采用 PPT + 板书的方式，课前会将 PPT 发放至课程群
+- 老师语速较慢，知识密度较低，拓展较多。作业比较简单，但可能不会完全覆盖考点，需要仔细看课件
+- 考勤形式是遍历型点名
+"""
+  author = { name = "", link = "", date = "" }
+
+[[textbooks]]
+title = "Linear Algebra Done Right"
+book_author = "Sheldon Axler"
+edition = "3rd ed.(2015) / 4th ed.(2023)"
+type = "reference"
+description = """
+此书本的官方网站：linear.axler.net，提供 Linear Algebra Done Right 的免费电子书。2023 年作者发布了这本书的第 4 版，目前已经开放阅读和下载。
+第 4 版中译由哈深 21 级的两位学生完成，已经发布在网址 1(https://oliverwu515.github.io/ladr4e) 和网址 2(https://linear.he-yang.top/)，有需求的同学可以对照阅读。欢迎大家多提意见，译者会不断修订并更新发布的版本。作者官网上也有链接，但更新相对不那么及时，建议访问此处的链接。
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "Introduction to Linear Algebra"
+book_author = "Gilbert Strang"
+edition = "5th ed.(2016) / 6th ed.(2023)"
+type = "reference"
+description = "有对应网课：B 站搜 Gilbert Strang 即可。电子书可在校内网盘（MATH1002 或 AUTO2006 文件夹）下载。"
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "Linear Algebra and Its Applications"
+book_author = "Lay D.C."
+edition = "5th ed."
+type = "reference"
+description = "有中译本，但建议读原版。电子书可在校内网盘（MATH1002 或 AUTO2006 文件夹）下载。"
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "Linear Algebra with Applications"
+book_author = "Steven J. Leon"
+type = "reference"
+description = "有中译本，但建议读原版。电子书可在校内网盘（MATH1002 或 AUTO2006 文件夹）下载。"
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "Linear Algebra Done Wrong"
+book_author = "Sergei Treil"
+type = "reference"
+description = """
+在矩阵与线性映射的关系上讲解比 Lay 更为简洁且不失严谨；对于行列式有非常简洁但富有动机的讲法；后续更进阶的内容也写得很简洁清晰。值得一读。
+可从 Brown University 网站获取：https://sites.google.com/a/brown.edu/sergei-treil-homepage/linear-algebra-done-wrong
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "控制理论中的代数基础"
+book_author = "季海波"
+publisher = "中国科学技术大学"
+type = "reference"
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[textbooks]]
+title = "系统与控制理论中的线性代数"
+book_author = "黄琳"
+publisher = "科学出版社"
+type = "reference"
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[online_resources]]
+title = "Solutions to Linear Algebra Done Right"
+url = "https://linearalgebras.com/"
+description = "😏 第 3 版习题解答。"
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "The Art of Linear Algebra"
+url = "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra"
+description = "含中译，线性代数知识可视化是好文明"
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "Math StackExchange"
+url = "https://math.stackexchange.com/"
+description = "类似 StackOverflow 的数学论坛"
+author = { name = "", link = "", date = "" }
+
+[[online_resources]]
+title = "kumiko - 线性代数应该这样学 // Linear Algebra Done Right （自学用）- Bilibili"
+url = "https://www.bilibili.com/video/BV1uK4y1a7jL"
+description = ""
+author = { name = "", link = "", date = "" }
+
+[[course]]
+content = """
+在自动控制专业中，线性代数或矩阵论是一个重要的数学基础。向量空间、线性映射等知识点是线性系统理论必不可少的预备知识。
+
+本课程在线性代数的基础上进一步增加符合控制相关学科的代数基础内容，使学生获得代数的基本知识和基本理论，掌握必要的数学运算技能；
+使学生进一步夯实代数基础和具备高维空间的代数描述和逻辑推理能力，同时使学生运用数学方法分析问题和解决问题的能力得到进一步的培养和锻炼，为后续课程的学习打好基础。
+"""
+author = { name = "教学大纲", link = "", date = "" }
+
+[[course]]
+content = """
+课程主要内容分为两部分：
+梅老师负责部分（前半程）：
+主要内容包括绪论、线性空间、子空间、线性相关、基和维数、基变换、矩阵的四个子空间、线性变换及其矩阵表示、投影与最小二乘、线性方程组的数值求解等。这部分内容主要对应《线性代数应该这样学》前三章。
+
+李老师负责部分（后半程）：
+主要内容包括内积空间和正交、正交基（施密特正交化）、线性泛函、正交投影、最小二乘、不变子空间与特征向量、线性映射的对角化、线性微分方程组求解、奇异值分解等。这部分内容主要对应《线性代数应该这样学》第五、六章。
+"""
+author = { name = "", link = "", date = "" }
+
+[[exam]]
+content = """
+- 考试难度：中
+
+题目包括但不限于：课本课后习题原题、作业题魔改、书本有关定理证明。
+
+- 2025 春考试:
+  - 题型：15 个判断题 30 分，九道大题 70 分。大多为基础题、计算题，拔高的构造式证明题仅占 3 分。
+  - 但由于是考查课，作为助教，从平时作业就可看出同学们对于课程的态度总体不算认真。再加之备考时间紧张，许多同学复习并不充分，试卷上出现大片空白，最后成绩不理想。
+  - 希望同学们以思维锻炼的眼光看待这门课，活化自己的头脑。
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
+
+[[advice]]
+content = """
+推荐学习路线：
+
+1. 个人建议在课程开始前（比如寒假的时间是最好的，这本书读起来也是很有趣的）阅读《线性代数及其应用》，这本书讲得比较浅显易懂。由于本书涉及了比较多的应用，过于专业的问题可以跳过，能够把这本书读完后基本能对线性代数有一个比较直观的认知。我强烈推荐至少要阅读前四章，因为国内的线性代数教材并不注重线性空间等知识，而是有大量的计算。而根据我上课来看，控代的老师似乎是默认你有一定的认识，然而我感觉大部分同学像是没有学习过线性代数一样。因此，推荐这本书作为真正的第一次学习线性代数。
+
+2. 上课的时候也要认真听，毕竟题是由两位授课教师出的，但是有了前面的学习，相信你听起课来肯定会更加轻松，只需要注意一些细节的点。尤其是前半部分相对来说是一个比较新的部分，注意理解作业题的思路。如果自己第一次学好了线性代数，后半部分学习应该是比较轻松的。
+"""
+author = { name = "AutoFriedRich", link = "https://github.com/AutoFriedRich", date = "2024-05-01" }
+
+[[advice]]
+content = """
+本课属于自动化的专业课，主要目标是补充学习线性代数中有关**线性空间**的知识。
+
+这门课的意义在于大一上的 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 侧重于矩阵运算，而我们并没有学习这些算法该用在哪里；只有到了向量空间上，线性代数才是真正的线性代数，才能体现其在实际应用中的重要性。
+所以除了授课语言外，本课程与 [代数与几何](https://github.com/HITSZ-OpenAuto/MATH1002) 最重要的区别是“弱计算，重思想”。
+
+课程使用**英文 PPT**，但是中文讲授；作业和考试要求用英语完成，因此对学生的英语水平有一定要求。
+
+> 其实这个要求也高不到哪儿去，用一位学长的话说就是像编程语言一样，掌握一些常用的词汇术语，然后能够把它们组合起来就可以了。
+
+教材没有硬性规定，学生一般用英文原版的 *Linear Algebra Done Right*，或者它的中译本《线性代数应该这样学》。
+
+事实上整门课程的教学安排没有完全按照教材顺序，也没有覆盖 *Linear Algebra Done Right* 上的全部内容，课程架构与书还是存在一定出入的。
+
+有的重点内容反而在书上没有，所以可以提前下载老师的讲义进行预习，甚至不依赖教材。
+
+最后吐槽一下：国内的课本是真的一坨
+"""
+author = { name = "Maxwell Jay 和 longlin li", link = "https://github.com/MaxwellJay256", date = "2023-06-01" }
+
+[[advice]]
+content = "要认真看课件上的例题和作业题。"
+author = { name = "", link = "", date = "" }
+
+[[advice]]
+content = "期末最后一节课或者考试前夕，老师会安排答疑和作业评讲课，至于课上会讲什么，懂得都懂，所以 **梅老师的期末答疑课一定要去听**。"
+author = { name = "", link = "", date = "" }
+
+[[advice]]
+content = "CASIO fx-991 X 计算器可以进行矩阵运算。"
+author = { name = "", link = "", date = "" }
+
+schedule = []
+
+related_links = []
+
+misc = []
