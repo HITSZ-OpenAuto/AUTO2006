@@ -1,66 +1,111 @@
-# 控制理论中的代数基础
+course_name = "控制理论中的代数基础"
+repo_type = "normal"
+course_code = "AUTO2006"
 
-**课程代码:** AUTO2006
+# 授课教师 (Lecturers)
+[[lecturers]]
+name = "梅杰"
 
-## 授课教师
-
-### 梅杰
-
-负责课程的前半部分。
+  [[lecturers.reviews]]
+  content = """
+  负责课程的前半部分。
               授课方式非常现代——在 iPad 上用 Goodnotes 书写板书并实时投屏。
               课前会将用 LaTeX 制作的 PDF 讲义发放至课程群，课后会将手写讲义发放至课程群。
               老师语速较快，知识密度高，上课可能跟不上，作业也比较难，但可以课后整理老师上课的笔记，这是期末复习的重要资料。
               考勤形式是点名回答问题，所以上课不仅要去，还要认真听。
+  """
+  author = { name = "", link = "", date = "" }
+[[lecturers]]
+name = "李衍杰"
 
-### 李衍杰
-
-负责课程的后半部分。
+  [[lecturers.reviews]]
+  content = """
+  负责课程的后半部分。
               授课采用 PPT + 板书的方式，课前会将 PPT 发放至课程群。
               老师语速较慢，知识密度较低，拓展较多。作业比较简单，但可能不会完全覆盖考点，需要仔细看课件。
               考勤形式是遍历型点名。
+  """
+  author = { name = "", link = "", date = "" }
 
-## 教材与参考书
+# 教材与参考书(不需要author)
+[[textbooks]]
+title = "Linear Algebra Done Right"
+book_author = "Sheldon Axler"
+publisher = "Springer"
+edition = "3rd ed.(2015) / 4th ed.(2023)"
+type = "textbook"
 
-**Linear Algebra Done Right**
-作者：Sheldon Axler | 出版社：Springer | 版本：3rd ed.(2015) / 4th ed.(2023)
+[[textbooks]]
+title = "Introduction to Linear Algebra"
+book_author = "Gilbert Strang"
+publisher = "Wellesley-Cambridge Press"
+edition = "5th ed.(2016) / 6th ed.(2023)"
+type = "textbook"
 
-**Introduction to Linear Algebra**
-作者：Gilbert Strang | 出版社：Wellesley-Cambridge Press | 版本：5th ed.(2016) / 6th ed.(2023)
+[[textbooks]]
+title = "Linear Algebra and Its Applications"
+book_author = "Lay D.C."
+publisher = "Pearson"
+edition = "5th ed."
+type = "reference"
 
-**Linear Algebra and Its Applications**
-作者：Lay D.C. | 出版社：Pearson | 版本：5th ed.
+[[textbooks]]
+title = "Linear Algebra with Applications"
+book_author = "Steven J. Leon"
+publisher = "Pearson"
+edition = ""
+type = "reference"
 
-**Linear Algebra with Applications**
-作者：Steven J. Leon | 出版社：Pearson
+[[textbooks]]
+title = "Linear Algebra Done Wrong"
+book_author = "Sergei Treil"
+publisher = "Brown University"
+edition = ""
+type = "reference"
 
-**Linear Algebra Done Wrong**
-作者：Sergei Treil | 出版社：Brown University
+[[textbooks]]
+title = "控制理论中的代数基础"
+book_author = "季海波"
+publisher = "中国科学技术大学"
+edition = ""
+type = "reference"
 
-**控制理论中的代数基础**
-作者：季海波 | 出版社：中国科学技术大学
+[[textbooks]]
+title = "系统与控制理论中的线性代数"
+book_author = "黄琳"
+publisher = "科学出版社"
+edition = ""
+type = "reference"
 
-**系统与控制理论中的线性代数**
-作者：黄琳 | 出版社：科学出版社
+# 网络资源（电子书、网课等）
+[[online_resources]]
+title = "linear.axler.net"
+url = "https://linear.axler.net/"
+description = "Linear Algebra Done Right 官方网站，提供免费电子书"
 
-## 在线资源
+[[online_resources]]
+title = "Solutions to Linear Algebra Done Right"
+url = "https://linearalgebras.com/"
+description = "第 3 版习题解答"
 
-- [linear.axler.net]([https://linear.axler.net/](https://linear.axler.net/))
-  Linear Algebra Done Right 官方网站，提供免费电子书
+[[online_resources]]
+title = "The Art of Linear Algebra"
+url = "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra"
+description = "线性代数知识可视化，含中译"
 
-- [Solutions to Linear Algebra Done Right]([https://linearalgebras.com/](https://linearalgebras.com/))
-  第 3 版习题解答
+[[online_resources]]
+title = "Math StackExchange"
+url = "https://math.stackexchange.com/"
+description = "类似 StackOverflow 的数学论坛"
 
-- [The Art of Linear Algebra]([https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra))
-  线性代数知识可视化，含中译
+[[online_resources]]
+title = "线性代数应该这样学 (Bilibili)"
+url = "https://www.bilibili.com/video/BV1uK4y1a7jL"
+description = "kumiko 上传的自学视频"
 
-- [Math StackExchange]([https://math.stackexchange.com/](https://math.stackexchange.com/))
-  类似 StackOverflow 的数学论坛
-
-- [线性代数应该这样学 (Bilibili)]([https://www.bilibili.com/video/BV1uK4y1a7jL](https://www.bilibili.com/video/BV1uK4y1a7jL))
-  kumiko 上传的自学视频
-
-## 课程评价
-
+# 核心课程评价区块
+[[course]]
+content = """
 ### 梅老师负责部分（24 学时）
 
 | 对应讲义 | 教学内容 | 教学要求 | 学时 |
@@ -74,7 +119,7 @@
 | Lec 3 | 线性变换的定义、零空间和值域、单射和满射 | 1. 掌握线性变换、零空间和值域、单射和满射及其性质 2. 掌握相关计算方法 | 2 |
 | Lec 3 | 线性变换的基本定理、线性变换的矩阵表示 | 1.理解**线性变换的基本定理**，掌握线性变换基本定理的**证明思路** 2.掌握**线性矩阵表示的定义和相关计算方法** 3.了解等价矩阵和相似矩阵的定义 | 2 |
 | Lec 3 | 图像的扭曲和变形、投影与最小二乘 | 1.了解如何用线性变换来完成图像的扭曲和变形 2.掌握投影算法与最小二乘问题 | 2 |
-| Lec 3 | 线性变换的代数运算、可逆与同构 | 1. 从线性变换矩阵表示的角度理解矩阵运算的本质 2. 掌握可逆矩阵和同构的概念；3. 掌握**构造线性映射的方法**；4. 理解任意有限维向量空间与 $\mathbb{F}^n$ 的同构、矩阵与线性映射的同构 | 2 |
+| Lec 3 | 线性变换的代数运算、可逆与同构 | 1. 从线性变换矩阵表示的角度理解矩阵运算的本质 2. 掌握可逆矩阵和同构的概念；3. 掌握**构造线性映射的方法**；4. 理解任意有限维向量空间与 $\\mathbb{F}^n$ 的同构、矩阵与线性映射的同构 | 2 |
 | Lec 3 | 向量空间的积和商 | 1. 了解向量空间的积；2. 了解平移、商空间、商映射 | 2 |
 | Lec 4 | 线性方程组的数值求解、数值逼近 | 1. 了解线性方程组的数值求解方法、了解逼近插值的相关方法 | 3 |
 | | 上半程课程回顾 | | 1 |
@@ -96,29 +141,38 @@
 | Lec 6 | 线性微分方程组求解 | 1.掌握**线性一阶、二阶微分方程组的求解** |
 | Lec 6 | 奇异值分解 | 1.掌握**奇异值分解的求解方法** |
 | | 后半程课程回顾 | |
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
 
-> 文 / [Oliver Wu]([https://github.com/OliverWu515](https://github.com/OliverWu515)), 2025.7
-
-## 考试
-
+[[exam]]
+content = """
 **2025 春考试情况：**
 *   **考试难度**：中。
 *   **题型**：15 个判断题 30 分，九道大题 70 分。题目包括但不限于：课本课后习题原题、作业题魔改、书本有关定理证明。
 *   **内容**：大多为基础题、计算题，拔高的构造式证明题仅占 3 分。
 *   **总结**：由于是考查课，同学态度总体不算认真，复习不充分导致成绩不理想。希望同学们以思维锻炼的眼光看待这门课。
+"""
+author = { name = "Oliver Wu", link = "https://github.com/OliverWu515", date = "2025-07-01" }
 
-> 文 / [Oliver Wu]([https://github.com/OliverWu515](https://github.com/OliverWu515)), 2025.7
-
-## 建议
-
+[[advice]]
+content = """
 1.  **预习建议**：建议在课程开始前（如寒假）阅读《线性代数及其应用》(Lay D.C.) 的前四章。这本书比较浅显易懂，适合建立直观认知。国内教材通常计算较多，不注重线性空间，因此推荐以此书作为真正的第一次学习。
 2.  **上课建议**：前半部分相对较新，需注意理解作业题思路。如果预习好了，后半部分学习会比较轻松。
+"""
+author = { name = "AutoFriedRich", link = "https://github.com/AutoFriedRich", date = "2024-05-01" }
 
+[[advice]]
+content = """
 本课侧重于**线性空间**的知识，与大一的代数与几何（重矩阵运算）不同，强调“弱计算，重思想”。
 课程使用**英文 PPT**，中文讲授；作业和考试要求用英语完成，对英语水平有一定要求（掌握常用词汇术语即可）。
 课程架构与 *Linear Algebra Done Right* 不完全一致，有的重点内容书上没有，建议提前下载老师讲义预习。
+"""
+author = { name = "Maxwell Jay & longlin li", link = "https://github.com/MaxwellJay256", date = "2023-06-01" }
 
-## 其他信息
-
+# 兜底板块
+[[misc]]
+content = """
 *   期末最后一节课或者考试前夕，老师会安排答疑和作业评讲课，**梅老师的期末答疑课一定要去听**。
 *   CASIO fx-991 X 计算器可以进行矩阵运算。
+"""
+author = { name = "", link = "", date = "" }
