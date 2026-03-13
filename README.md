@@ -14,6 +14,7 @@
 
 ## 授课教师
 
+<!-- TOML-LECTURERS: part="items" -->
 - 梅杰
   <!-- TOML-ITEM: id="review-梅杰-1" -->
   - 负责课程的前半部分。
