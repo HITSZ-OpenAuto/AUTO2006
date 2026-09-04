@@ -1,0 +1,225 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{ctex}
+\usepackage{geometry}
+\geometry{a4paper,scale=0.8}
+\usepackage[T1]{fontenc}
+\renewcommand{\baselinestretch}{1.25}
+\everydisplay{\def\arraystretch{0.9}}
+\everymath{\def\arraystretch{0.9}}
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=3pt, partopsep=0pt, parsep=\parskip, topsep=5pt}
+\AtBeginEnvironment{equation}{\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}}
+\AtBeginEnvironment{equation*}{\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}}
+\AtBeginEnvironment{align}{\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}}
+\AtBeginEnvironment{align*}{\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}}
+
+\usepackage[USenglish]{isodate}
+\usepackage{amsmath,amssymb}
+\usepackage{times}
+\usepackage{newtxmath}
+% \usepackage[all]{xy}
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{url,cite}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+% \def\proof{\noindent{\it Proof: }}
+\def\QED{\mbox{\rule[0pt]{1.5ex}{1.5ex}}}
+% \def\endproof{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+\newcommand{\re}{\mathbb{R}}
+\def\sV{\mathcal{V}}
+\def\sS{\mathcal{S}}
+\def\sQ{\mathcal{Q}}
+
+\newcommand{\mc}{\mbox{: }}
+
+\newcommand{\normsq}[1]{\left\|#1\right\|^2}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+%\newcommand{\sgn}[1]{\mbox{sgn}(#1)}
+\newcommand{\pde}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\fundef}[3]{#1:#2\to #3}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\mymatrix}[2]{\left(\begin{array}{#1}#2\end{array}\right)}
+\newcommand{\defeq}{\stackrel{\triangle}{=}}
+\newcommand{\paren}[1]{\left(#1\right)}
+%\theoremstyle{plain} \newtheorem{theorem}{Theorem}
+%\theoremstyle{plain} \newtheorem{algorithm}{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{example}[theorem]{Example}
+%\theoremstyle{plain}\newtheorem{lemma}{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{corollary}[theorem]{Corollary}
+
+
+\def\omegavec{\boldsymbol{\omega}}
+\newcommand{\alphabf}{\boldsymbol{\alpha}}
+\newcommand{\omegabf}{\boldsymbol{\omega}}
+\def\omegavec{\boldsymbol{\omega}}
+\newcommand{\taubf}{\boldsymbol{\tau}}
+\newcommand{\qbf}{\mathbf{q}}
+\newcommand{\ybf}{\mathbf{y}}
+\newcommand{\pbf}{\mathbf{p}}
+\newcommand{\rbf}{\mathbf{r}}
+\newcommand{\ebf}{\mathbf{e}}
+\newcommand{\onebf}{\mathbf{1}}
+\newcommand{\zerobf}{\mathbf{0}}
+\newcommand{\abf}{\mathbf{a}}
+\newcommand{\ibf}{\mathbf{i}}
+\newcommand{\jbf}{\mathbf{j}}
+\newcommand{\kbf}{\mathbf{k}}
+\newcommand{\vbf}{\mathbf{v}}
+\newcommand{\wbf}{\mathbf{\omega}}
+\newcommand{\fbf}{\mathbf{f}}
+\newcommand{\zbf}{\mathbf{z}}
+\newcommand{\xbf}{\mathbf{x}}
+\newcommand{\dbf}{\mathbf{d}}
+\newcommand{\Rbf}{\mathbf{R}}
+\newcommand{\Tbf}{\mathbf{T}}
+
+\newcommand{\Cbf}{\mathbf{C}}
+\newcommand{\Ibf}{\mathbf{I}}
+\newcommand{\Pbf}{\mathbf{P}}
+\newcommand{\Qbf}{\mathbf{Q}}
+\newcommand{\Vbf}{\mathbf{V}}
+\newcommand{\Jbf}{\mathbf{J}}
+\newcommand{\Xbf}{\mathbf{X}}
+\newcommand{\Abf}{\mathbf{A}}
+\newcommand{\Kbf}{\mathbf{K}}
+\newcommand{\Gammabf}{\boldsymbol{\Gamma}}
+\newcommand{\nubf}{\boldsymbol{\nu}}
+\newcommand{\xibf}{\boldsymbol{\xi}}
+\newcommand{\Xibf}{\boldsymbol{\Xi}}
+\newcommand{\Omegabf}{\boldsymbol{\Omega}}
+
+
+\newcommand{\ubf}{\mathbf{u}}
+
+\newcommand{\lth}{\ell{\text{th}}}
+\newcommand{\ith}{i{\text{th}}}
+\newcommand{\jth}{j{\text{th}}}
+\newcommand{\kth}{k{\text{th}}}
+\newcommand{\ip}[2]{\left<#1,~#2\right>}
+
+\newcommand{\OMIT}[1]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                End Macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Homework 1}
+\author{Name:\hspace{5em} Class:\hspace{7em} Student ID: \qquad\qquad}
+\date{\today}
+\begin{document}
+\maketitle
+In linear algebra, the {\it concepts} are as important as the {\it computations}. The simple
+numerical exercises only help you check your understanding
+of basic procedures. Later in your career, {\bf computers will do the calculations}, but you
+will have to {\bf choose} the calculations, know how to {\bf interpret} the results, and then {\bf explain}
+the results to other people.
+
+You must avoid the temptation to look at answers before you have tried
+to write out the solution yourself. {\bf Otherwise, you are likely to think you understand
+something when in fact you do not}.
+
+{\hfill ---{\it Linear Algebra and Its Applications, by David C. Lay et al.}}
+
+\subsection*{术语表 (Glossary)}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+\textbf{英文术语} & \textbf{中文翻译} & \textbf{英文术语} & \textbf{中文翻译} \\
+\hline
+Vector & 向量 & Zero vector & 零向量 \\
+Vector space & 向量空间 & Subspace & 子空间 \\
+Empty set & 空集 & Nonempty set & 非空集 \\
+Plane & 平面 & Scalar & 标量 \\
+Closed under addition & 对加法封闭 & Closed under scalar multiplication & 对数乘（标量乘法）封闭 \\
+Union & 并集 & Intersection & 交集 \\
+Linearly independent & 线性无关 & Linearly dependent & 线性相关 \\
+Span & 张成 & Spanning (Generating) set & 张成/生成集 \\
+Basis & 基 & Linear combination & 线性组合 \\
+Dimension & 维数 & Finite-dimensional vector space & 有限维向量空间 \\
+Sum of subspaces & 子空间的和 & Direct sum（$\oplus$） & 直和 \\
+System of vectors & 向量组 & Polynomial & 多项式 \\
+Quadrant & 象限 & Polynomial space（$\mathcal{P}_n(\mathbb{F})$） & （$\mathbb{F}$上的$n$次）多项式空间 \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{常见证明术语}
+\begin{center}
+\begin{tabular}{llll}
+\hline
+\textbf{英文术语} & \textbf{中文解释} \\
+\hline
+Since $A$, (we have) $B$ & 因为$A$，所以$B$（注意没有so）\\
+Therefore, $A$ & 因此，$A$（常用于证明末尾）\\
+There exists $A$ such that $B$ & 存在$A$ 满足$B$\\
+which implies ... & 这意味着……\\
+which gives / yields & 上式给出（由上式可得）……\\
+Thus ... & 则…… （表示因果关系，一般放在段中）\\
+\hline
+\end{tabular}
+\end{center}
+还有很多讲述证明的方式，可以学习讲义。尽量让语言生动而清晰，不要用 $\because$ 和 $\therefore$，也不要从头because/so到尾，并且留心每个因果关系是否正确。善用行间公式，不要把所有的式子挤在一行。
+
+\begin{enumerate}
+  \item Justify each answer. Draw $\checkmark$ if True and $\times$ if False.
+  \begin{enumerate}
+    \item The empty set is not a vector space.\hfill (\quad)
+    \item A nonempty set that is closed under addition and scalar multiplication is a vector space.\hfill (\quad)
+    \item A plane in $\mathbb{R}^3$ is a two-dimensional subspace.\hfill (\quad)
+    \item Suppose $U_1$ and $U_2$ are subspaces of $V$. The intersection of $U_1$ and $U_2$ is a subspace of $V$.\hfill (\quad)
+    \item $\{(x,y,z)\in\mathbb{C}^3: x^3=y^3\}$ is a subspace of $\mathbb{C}^3$.\hfill (\quad)
+    \item A single vector by itself is linearly dependent.\hfill (\quad)
+    \item If $H = \operatorname{span} \{\mathbf{v}_1,\dots,\mathbf{v}_p\}$, then $\{\mathbf{v}_1,\dots,\mathbf{v}_p\}$ is a basis for $H$.\hfill (\quad)
+    \item A basis is a linearly independent set that is as large as possible.\hfill (\quad)
+    \item  If $\{\mathbf{v}_1,\dots,\mathbf{v}_m\}$ and $\{\mathbf{w}_1,\dots,\mathbf{w}_m\}$ are linearly independent lists of vectors in $V$, then  $\{\mathbf{v}_1+\mathbf{w}_1,\dots,\mathbf{v}_m+\mathbf{w}_m\}$ is linearly independent.\hfill (\quad)
+    \item $V$ is a nonzero finite-dimensional vector space, and the vectors listed belong to $V$. \begin{enumerate}
+    \item
+          If there exists a set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ that spans $V$, then $\operatorname{dim} V \leq p $.\hfill (\quad)
+    \item
+          If there exists a linearly independent set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $V$, then $\operatorname{dim} V \geq p$.\hfill (\quad)
+    \item
+          If $\operatorname{dim} V=p$, then there exists a spanning set of $p+1$ vectors in $V$.\hfill (\quad)
+    \item
+          If there exists a linearly dependent set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $V$, then $\operatorname{dim} V \leq p$.\hfill (\quad)
+    \item
+          If every set of $p$ elements in $V$ fails to span $V$, then dim $V>p$.\hfill (\quad)
+    \item
+          If $p \geq 2$ and $\operatorname{dim} V=p$, then every set of $p-1$ nonzero vectors is linearly independent.\hfill (\quad)
+
+  \end{enumerate}
+  \end{enumerate}
+  \item Let $W$ be the union of the first and third quadrants in the $xy$-plane. That is, let $W = \left\{ \begin{bmatrix}
+x \\ y \end{bmatrix}:xy\ge 0,x,y\in\mathbb{R} \right\}$.
+  \begin{enumerate}
+    \item If $\mathbf{u}$ is in $W$ and $c$ is any scalar, is $c\mathbf{u}$ in $W$? Why?
+    \item If $\mathbf{u},\mathbf{v}\in W$, is $\mathbf{u}+\mathbf{v}$ in $W$? Why?
+    \item Is $W$ a vector space?
+  \end{enumerate}
+  \newpage
+  \item Let $X$ and $Y$ be subspaces of a vector space $V$. 
+  \begin{enumerate}
+    \item Let $\mathbf{v} \in V$, $\mathbf{v} \notin X$. Prove that if $\mathbf{x} \in X$ then $\mathbf{x} + \mathbf{v} \notin X$.
+    \item Use (a) to show that $X\cup Y$ is a subspace if and only if $X \subset Y$ or $Y \subset X$.
+    \item Give an example that  $X$ and $Y$ are both subspaces of a vector space $V$, but $X\cup Y$ is not. 
+  \end{enumerate}
+  \textbf{Note: }\textit{The union of subspaces is usually not a subspace, which is the reason for us to consider the sum of subspaces.}
+  \vspace{12cm}
+  \item Prove or give a counterexample: If $U_1$, $U_2$, $W$ are subspaces of $V$ such that $U_1\oplus W=U_2\oplus W$, then $U_1=U_2$.
+  \newpage
+  \item Suppose that $V$ is a finite dimensional vector space. Let a system of vectors $\mathbf{v}_{1},\mathbf{v}_{2},\ldots,\mathbf{v}_{r}\in V$ be linearly independent but not generating. Show that it is possible to find a vector $\mathbf{v}_{r+1}\in V$ such that the system $\mathbf{v}_{1},\mathbf{v}_{2},\ldots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ is linearly independent. (Hint: Take for $\mathbf{v}_{r+1}$ any vector that
+cannot be represented as a linear combination $\sum_{k=1}^r\alpha_k\mathbf{v}_k$ and show that the system $\mathbf{v}_{1},\mathbf{v}_{2},\ldots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ is linearly independent.)
+   \newpage
+  \item Let $U = \{p \in \mathcal{P}_4(\mathbb{F}) : p(2) = p(5)\}$, $\mathbb{F} = \mathbb{R}$ or $\mathbb{F} = \mathbb{C}$.
+  \begin{enumerate}
+  \item  Give the standard basis of $ \mathcal{P}_4(\mathbb{F})$ and verify that it is indeed a basis. What is the dimension of $ \mathcal{P}_4(\mathbb{F})$? What is the dimension of $\mathbb{F}^5$? (Hint: Can you see the relationship between them?)
+  \item Find a basis of $U$. (Hint: Try to answer: Is $1\in U$? Is $(x-2)(x-5)\in U$? Are there any other ``independent'' vectors? What is the possible size of the linearly independent set?)
+  \item Find a subspace $W$ of $\mathcal{P}_4(\mathbb{F})$ such that $\mathcal{P}_4(\mathbb{F}) = U \oplus W$. (Hint: The proof of Theorem 2.6.3 might help.)
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
