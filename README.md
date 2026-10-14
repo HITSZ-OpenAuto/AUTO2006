@@ -1,11 +1,5 @@
 # AUTO2006 - 控制理论中的代数基础
 <!-- TOML-META: repo_type="normal" -->
-<!-- TOML-BADGES: source="grades_summary" -->
-
-![成绩构成](https://img.shields.io/badge/成绩构成-gold)
-![平时成绩10%](https://img.shields.io/badge/平时成绩-10%25-wheat)
-![作业20%](https://img.shields.io/badge/作业-20%25-wheat)
-![期末考试70%](https://img.shields.io/badge/期末考试-70%25-wheat)
 
 在自动控制专业中，线性代数或矩阵论是一个重要的数学基础。向量空间、线性映射等知识点是线性系统理论必不可少的预备知识。
 
